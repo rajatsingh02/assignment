@@ -1,3 +1,6 @@
+$highlightedTextColor: #2D2D2D;
+$textColor: #8A8A8A;
+
 .header-container {
     position: absolute;
     left: 0%;
@@ -5,59 +8,59 @@
     top: 0%;
     bottom: 1.35%;
     background: #FFFFFF;
-    box-shadow: 0px 3px 8px rgba(117, 117, 117, 0.0837579);
+    box-shadow: 0rem 3px 0.5rem rgba(117, 117, 117, 0.0837579);
     display: flex;
-    height: 73px;
+    height: 4.5625rem;
     align-items: center;
-    padding-left: 35px;
+    padding-left: 2.1875rem;
 }
 
 .back-icon {
     color: #525557;
-    margin-right: 8px;
+    margin-right: 0.5rem;
 }
 
 .header-title {
     font-weight: 900;
-    font-size: 16px;
-    line-height: 22px;
-    color: #2D2D2D;
+    font-size: 1rem;
+    line-height: 1.375rem;
+    color: $highlightedTextColor;
 }
 
 .list-heading {
-    margin-top: 110px;
-    padding-left: 60px;
+    margin-top: 6.875rem;
+    padding-left: 3.75rem;
     font-weight: 600;
-    font-size: 16px;
-    line-height: 20px;
-    color: #2D2D2D;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: $highlightedTextColor;
 }
 
 .prospects-table-header {
     background: #FFFFFF;
     border: 1px solid #F3F3F3;
-    padding: 10px 184px 8px 73px;
+    padding: 0.625rem 11.5rem 0.5rem 5.1875rem;
     font-weight: 600;
-    font-size: 14px;
-    line-height: 19px;
+    font-size: 0.9375rem;
+    line-height: 1.1875rem;
     text-align: center;
-    letter-spacing: 1px;
+    letter-spacing: 0.0625rem;
     text-transform: uppercase;
-    margin: 7px 56px 19px 56px;
+    margin: 0.4375rem 3.5rem 1.1875rem 3.5rem;
 
-    color: #8A8A8A;
+    color: $textColor;
     display: flex;
     align-items: center;
 
     .details {
-        margin-right: 200px;
+        margin-right: 12.5rem;
     }
 
     .schedule {
-        margin-right: 160px;
+        margin-right: 10rem;
     }
 
     .reference {
-        margin-right: 220px;
+        margin-right: 13.75rem;
     }
 }

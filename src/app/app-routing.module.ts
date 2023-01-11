@@ -4,7 +4,7 @@ import { CandidateCardComponent } from './candidate-card/candidate-card.componen
 import { CandidateListComponent } from './candidate-list/candidate-list.component';
 
 const routes: Routes = [
-  { path: '' , redirectTo: 'home', pathMatch: 'full'},
+  { path: '' , redirectTo: 'candidate-list', pathMatch: 'full'},
   { path: 'cards', component: CandidateCardComponent },
   { path: 'candidate-list', component: CandidateListComponent },
 ];

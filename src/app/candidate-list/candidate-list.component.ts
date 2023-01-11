@@ -20,7 +20,7 @@ export class CandidateListComponent implements OnInit {
       date: '1 Jul 2020'
     },
     {
-      image: '../../assets/avatar2.svg',
+      image: '../../assets/avatar2.png',
       name: 'Kunjan Kumar',
       designation: 'Director, Hosuing and Development',
       location: 'New Delhi',
@@ -45,7 +45,7 @@ export class CandidateListComponent implements OnInit {
 
   dropped = [
     {
-      image: '../../assets/avatar2.svg',
+      image: '../../assets/avatar2.png',
       name: 'Kunjan Kumar',
       designation: 'Director, Hosuing and Development',
       location: 'New Delhi',

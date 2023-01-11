@@ -1,0 +1,63 @@
+.header-container {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 1.35%;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 8px rgba(117, 117, 117, 0.0837579);
+    display: flex;
+    height: 73px;
+    align-items: center;
+    padding-left: 35px;
+}
+
+.back-icon {
+    color: #525557;
+    margin-right: 8px;
+}
+
+.header-title {
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 22px;
+    color: #2D2D2D;
+}
+
+.list-heading {
+    margin-top: 110px;
+    padding-left: 60px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2D2D2D;
+}
+
+.prospects-table-header {
+    background: #FFFFFF;
+    border: 1px solid #F3F3F3;
+    padding: 10px 184px 8px 73px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 7px 56px 19px 56px;
+
+    color: #8A8A8A;
+    display: flex;
+    align-items: center;
+
+    .details {
+        margin-right: 200px;
+    }
+
+    .schedule {
+        margin-right: 160px;
+    }
+
+    .reference {
+        margin-right: 220px;
+    }
+}

@@ -1,0 +1,23 @@
+<div class="header-container">
+    <mat-icon class="back-icon">keyboard_backspace</mat-icon>
+    <div class="header-title">CEO, Magma Fincorp, Kolkata</div>
+</div>
+
+<div class="list-heading">
+    Prospects
+</div>
+
+<div class="prospects-table-header">
+    <span class="details">CANDIDATE DETAILS</span>
+    <span class="schedule">INTERVIEW SCHEDULE</span>
+    <span class="reference">REFERENCE CHECK</span>
+    <span>COMMENTS</span>
+</div>
+
+<app-candidate-card [candidateList]="prospects" [type]="'prospects'"></app-candidate-card>
+
+<div class="list-heading">
+    Dropped
+</div>
+
+<app-candidate-card [candidateList]="dropped" [type]="'dropped'"></app-candidate-card>

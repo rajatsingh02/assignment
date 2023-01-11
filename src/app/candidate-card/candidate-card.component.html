@@ -1,0 +1,86 @@
+<div *ngFor="let candidate of candidateList" class="card">
+
+    <div class="avatar">
+        <img [src]="candidate?.image" alt="">
+    </div>
+
+    <div class="details">
+        <div class="name">
+            {{candidate?.name}}
+        </div>
+        <div class="designation">
+            {{candidate?.designation}}
+        </div>
+        <div class="location">
+            {{candidate?.location}}
+        </div>
+    </div>
+
+    <div class="hire-schedule">
+        <div class="icon">
+            <mat-icon>thumb_up</mat-icon>
+        </div>
+        <div class="text">
+            Hire
+        </div>
+        <div class="text">
+            {{candidate?.date}}
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="status">
+        {{candidate?.status}}
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="hire-schedule">
+        <div class="icon-down">
+            <mat-icon>thumb_down</mat-icon>
+        </div>
+        <div class="text">
+            No Hire
+        </div>
+        <div class="text">
+            {{candidate?.date}}
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="hire-schedule">
+        <div class="icon-down">
+            <mat-icon>calendar_today</mat-icon>
+        </div>
+        <div class="text">
+            {{candidate?.date}}
+        </div>
+    </div>
+
+    <div class="reference-check">
+
+        <div>
+            {{candidate?.leads}}
+        </div>
+
+        <div class="divider"></div>
+
+        <div>
+            {{candidate?.captured}}
+        </div>
+
+    </div>
+
+    <div class="comments-container">
+        <div class="comments">
+            {{candidate?.comments}}
+        </div>
+
+        <div class="options-icon">
+            <div>...</div>
+        </div>
+    </div>
+
+</div>

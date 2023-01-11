@@ -55,6 +55,20 @@ export class CandidateListComponent implements OnInit {
       comments: 'Lorem ri culpa itaque voluptatibus autem ex quam. Possimus quae sed iure ad. At vel ratione officiis optio natus dolorum illo nobis distinctio?',
       date: '1 Jul 2020'
     }
+  ];
+
+  offerExtendedList = [
+    {
+      image: '../../assets/avatar2.png',
+      name: 'Kunjan Kumar',
+      designation: 'Director, Hosuing and Development',
+      location: 'New Delhi',
+      status: 'Awaiting Feedback',
+      leads: 2,
+      captured: 4,
+      comments: 'Lorem ri culpa itaque voluptatibus autem ex quam. Possimus quae sed iure ad. At vel ratione officiis optio natus dolorum illo nobis distinctio?',
+      date: '1 Jul 2020'
+    }
   ]
 
   constructor() { }

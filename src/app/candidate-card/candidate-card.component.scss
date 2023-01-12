@@ -34,7 +34,7 @@ $textColor: #8A8A8A;
     align-self: center;
     display: flex;
     flex-direction: column;
-    margin-right: 25px;
+    margin-right: 1.5625rem;
 
     .name {
         color: $highlightedTextColor;
@@ -43,15 +43,15 @@ $textColor: #8A8A8A;
 
     .designation, .location {
         color: $textColor;
-        font-size: 14px;
+        font-size: 0.875rem;
     }
 }
 
 .hire-schedule {
     display: flex;
     flex-direction: column;
-    padding-left: 25px;
-    padding-right: 16px;
+    padding-left: 1.5625rem;
+    padding-right: 1rem;
     justify-content: center;
     align-items: center;
 
@@ -65,15 +65,15 @@ $textColor: #8A8A8A;
     
     .text {
         font-weight: 400;
-        font-size: 12px;
-        line-height: 22px;
+        font-size: 0.75rem;
+        line-height: 1.375rem;
         text-align: center;
         color: $textColor;
     }
 }
 
 .divider {
-    height: 50px;
+    height: 3.125rem;
     opacity: 0.5;
     border-left: 0.0625rem solid #E6E6E6;
     align-self: center;
@@ -82,16 +82,16 @@ $textColor: #8A8A8A;
 
 .status {
     color: $textColor;
-    font-size: 12px;
-    width: 47px;
-    padding: 25px 23px 20px 27px;
+    font-size: 0.75rem;
+    width: 2.9375rem;
+    padding: 0.0625rem 1.4375rem 1.25rem 1.6875rem;
 }
 
 .reference-check {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 75px;
+    margin-left: 4.6875rem;
 
     .divider {
         margin: 0rem 2.1875rem 0rem 2.1875rem;
